@@ -4,11 +4,19 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
 .orange-colour {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -38,4 +46,30 @@ section {
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+
+.expirance-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.expirance-item {
+    box-shadow: 19px 10px 40px gray;
+    margin-left: 5%;
+    padding-left: 5px;
+    width: 40%;
+}
+
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-wab-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
