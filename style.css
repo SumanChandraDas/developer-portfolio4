@@ -1,6 +1,7 @@
 /* common styles  */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .orange-colour {
@@ -9,6 +10,12 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 150px;
+}
+
+.top-bannar {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 .half-width {
@@ -25,4 +32,10 @@ section {
 
 .half-width img {
     width: 70%;
+}
+
+.dream-big {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
